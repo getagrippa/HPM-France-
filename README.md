@@ -24,7 +24,7 @@ Afro American as accepted civil war reconstruction
 
 Flavor Events for certian nations that are in HFM:
 
-Japan Balacning
+Japan Balancing
 
 Wallachia, Moldavia, Romania Unification Chain
 
