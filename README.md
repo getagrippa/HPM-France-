@@ -32,7 +32,7 @@ USA Balancing & Flavour
 
 Add EIC as nation
 
-Balance Cotton, Wool, Dtes, Textile production chain
+Balance Cotton, Wool, Dyes, Textile production chain
 
 South American War of the Triple Alliance
 
