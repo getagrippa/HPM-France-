@@ -31,3 +31,5 @@ Wallachia, Moldavia, Romania Unification Chain
 USA Balancing & Flavour
 
 Add EIC as nation
+
+Balance Cotton, Wool, Dtes, Textile production chain
