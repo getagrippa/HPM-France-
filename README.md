@@ -2,6 +2,8 @@
 
 # To-Do
 
+https://trello.com/b/x8h35sww/hpm-multiplayer-update
+
 Add Civil War Truces
 
 French Colony Events/Decisions
@@ -10,7 +12,7 @@ Spanish Empire Events/Decisions
 
 Buff Good Techs
 
-Dragoon Techs
+Dragoon Techs - DONE
 
 Italian Independence War
 
@@ -36,6 +38,6 @@ Balance Cotton, Wool, Dyes, Textile production chain
 
 South American War of the Triple Alliance
 
-Square flags
+Square flags - DONE
 
-Map textures
+Map textures - DONE
