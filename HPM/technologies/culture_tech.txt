@@ -753,7 +753,7 @@ ideological_thought = {
 				tag = PRU
 				tag = USA
 				tag = FRA
-				tag = BOR
+				#tag = BOR
 			}
 		}
 	}
@@ -807,7 +807,7 @@ state_n_government = {
 				tag = PRU
 				tag = USA
 				tag = FRA
-				tag = BOR
+				#tag = BOR
 			}
 		}
 		modifier = {
