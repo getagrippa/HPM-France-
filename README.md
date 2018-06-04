@@ -8,11 +8,11 @@ Add Civil War Truces
 
 French Colony Events/Decisions
 
+British Isolationism
+
 Spanish Empire Events/Decisions
 
 Buff Good Techs
-
-Dragoon Techs - DONE
 
 Italian Independence War
 
@@ -38,6 +38,10 @@ Balance Cotton, Wool, Dyes, Textile production chain
 
 South American War of the Triple Alliance
 
+-------
+
 Square flags - DONE
 
 Map textures - DONE
+
+Dragoon Techs - DONE
