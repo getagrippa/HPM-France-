@@ -8,7 +8,9 @@ Add Civil War Truces
 
 French Colony Events/Decisions
 
-Scandanavia
+Scandanavia requirements
+
+Greece requirments
 
 British Isolationism
 
