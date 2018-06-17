@@ -8,6 +8,8 @@ Add Civil War Truces
 
 French Colony Events/Decisions
 
+Scandanavia
+
 British Isolationism
 
 Spanish Empire Events/Decisions
