@@ -6,6 +6,8 @@ https://trello.com/b/x8h35sww/hpm-multiplayer-update
 
 Add Civil War Truces
 
+Great Wars 1890
+
 French Colony Events/Decisions
 
 Scandanavia requirements
