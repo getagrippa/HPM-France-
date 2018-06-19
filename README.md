@@ -10,6 +10,8 @@ Great Wars 1890
 
 French Colony Events/Decisions
 
+Lower Cut Down Costs
+
 Scandanavia requirements, and form puppet version
 
 Greece requirments
