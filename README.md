@@ -14,6 +14,8 @@ Spanish Empire Events/Decisions
 
 Buff Good Techs
 
+Russian Serfdom
+
 Lower Cut Down Cost
 
 Italian Independence War
