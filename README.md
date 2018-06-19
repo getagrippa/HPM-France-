@@ -4,7 +4,9 @@
 
 https://trello.com/b/x8h35sww/hpm-multiplayer-update
 
-Add Civil War Truces
+Taiping Rebellion Truce
+
+Hungarian War Truce
 
 Great Wars 1890
 
@@ -49,6 +51,8 @@ South American War of the Triple Alliance
 -------
 
 Square flags - DONE
+
+ACW truce  - DONE
 
 Map textures - DONE
 
