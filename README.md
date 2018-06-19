@@ -10,7 +10,7 @@ Great Wars 1890
 
 French Colony Events/Decisions
 
-Scandanavia requirements
+Scandanavia requirements, and form puppet version
 
 Greece requirments
 
