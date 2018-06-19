@@ -4,27 +4,19 @@
 
 https://trello.com/b/x8h35sww/hpm-multiplayer-update
 
-Taiping Rebellion Truce
+Hungarian Civil War Truce
 
-Congo for secondary power
-
-Hungarian War Truce
-
-Great Wars 1890
+Taiping Civil War Truce
 
 French Colony Events/Decisions
-
-Lower Cut Down Costs
-
-Scandanavia requirements, and form puppet version
-
-Greece requirments
-
-British Isolationism
 
 Spanish Empire Events/Decisions
 
 Buff Good Techs
+
+Russian Serfdom
+
+Lower Cut Down Cost
 
 Italian Independence War
 
@@ -47,3 +39,15 @@ USA Balancing & Flavour
 Add EIC as nation
 
 Balance Cotton, Wool, Dyes, Textile production chain
+
+South American War of the Triple Alliance
+
+--------
+
+Square flags - DONE
+
+Map textures - DONE
+
+Dragoon Techs - DONE
+
+ACW Civil War Truce - DONE
