@@ -557,12 +557,12 @@ biologism = {
 			not = { literacy = 0.25 }
 		}
 		modifier = {
-			factor = 50
+			factor = 10
 			capital_scope = { continent = europe }
 			NOT = { tag = TUR }
 			OR = {
-				not = { literacy = 0.75 }
-				year = 1870
+				not = { literacy = 0.7 }
+				year = 1880
 				tag = ENG
 			}
 			OR = {
@@ -694,7 +694,7 @@ ideological_thought = {
 	max_national_focus = 1 
 		
 	ai_chance = {
-		factor = 15
+		factor = 11
 		modifier = {
 			factor = 6
 			is_greater_power = yes
@@ -740,22 +740,6 @@ ideological_thought = {
 			factor = 20
 			tag = PRU
 		}
-		modifier = {
-			factor = 5100
-			tag = SAR
-			year = 1845
-		}
-		modifier = {
-			factor = 5100
-			OR = {
-				year = 1845
-				tag = SAR
-				tag = PRU
-				tag = USA
-				tag = FRA
-				#tag = BOR
-			}
-		}
 	}
 }
 state_n_government = {
@@ -765,9 +749,9 @@ state_n_government = {
 
 	max_national_focus = 1 
 	ai_chance = {
-		factor = 25
+		factor = 15
 		modifier = {
-			factor = 4
+			factor = 3.5
 			is_greater_power = yes
 		}
 		modifier = {
@@ -800,14 +784,12 @@ state_n_government = {
 			total_pops = 3000000
 		}
 		modifier = {
-			factor = 5100
+			factor = 51
 			OR = {
-				year = 1845
+				year = 1860
 				tag = SAR
 				tag = PRU
 				tag = USA
-				tag = FRA
-				#tag = BOR
 			}
 		}
 		modifier = {
@@ -826,9 +808,9 @@ nationalism_n_imperialism = {
 	cb_creation_speed = 0.1
 	
 	ai_chance = {
-		factor = 25
+		factor = 20
 		modifier = {
-			factor = 25
+			factor = 21
 			is_greater_power = yes
 			OR = {
 				any_greater_power = { any_owned_province = { any_neighbor_province = { empty = yes } } }
@@ -843,9 +825,9 @@ nationalism_n_imperialism = {
 			total_pops = 4000000
 		}
 		modifier = {
-			factor = 50
+			factor = 2
 			is_greater_power = yes
-			year = 1860
+			year = 1865
 		}
 		modifier = {
 			factor = 51
@@ -853,7 +835,7 @@ nationalism_n_imperialism = {
 			year = 1870
 		}
 		modifier = {
-			factor = 2.5
+			factor = 1.5
 			OR = {
 				total_pops = 4000000
 				AND = {
@@ -885,14 +867,9 @@ nationalism_n_imperialism = {
 				AND = {
 					cultural_union = { exists = no }
 					is_greater_power = yes
-					year = 1855
 				}
 				tag = POR
 			}
-		}
-		modifier = {
-			factor = 510
-			tag = SAR
 		}
 	}
 }
@@ -904,10 +881,14 @@ revolution_n_counterrevolution = {
 	max_national_focus = 1
 	diplomatic_points = 0.25
 	ai_chance = {
-		factor = 35
+		factor = 20
 		modifier = {
-			factor = 200
+			factor = 21
 			is_greater_power = yes
+			OR = {
+				any_greater_power = { any_owned_province = { any_neighbor_province = { empty = yes } } }
+				any_owned_province = { any_neighbor_province = { empty = yes } }
+			}
 		}
 		modifier = {
 			factor = 5

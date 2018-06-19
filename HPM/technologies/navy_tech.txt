@@ -158,7 +158,6 @@ battleship_column_doctrine = {
 				tag = SPA
 				tag = SPC
 				tag = CHL
-				tag = JAP
 			}
 		}
 	}
@@ -260,7 +259,6 @@ raider_group_doctrine = {
 				tag = BEL
 				tag = SPA
 				tag = SPC
-				tag = JAP
 			}
 		}
 	}
@@ -272,7 +270,7 @@ blue_and_brown_water_schools = {
 	unciv_military = yes
 	max_naval_base = 1
 	ai_chance = {
-		factor = 5
+		factor = 2
 		# Land-locked countries don't research this
 		modifier = {
 			factor = 0
@@ -324,14 +322,6 @@ blue_and_brown_water_schools = {
 			factor = 1.05
 			total_amount_of_ships = 80
 		}
-		modifier = {
-			factor = 5
-			total_amount_of_ships = 150
-		}
-		modifier = {
-			factor = 10
-			total_amount_of_ships = 180
-		}
 		# Big country with more than 1/4 coastal provinces
 		modifier = {
 			factor = 1.1
@@ -363,8 +353,6 @@ blue_and_brown_water_schools = {
 				tag = BEL
 				tag = SPA
 				tag = SPC
-				tag = JAP
-				tag = ENG
 			}
 		}
 	}
@@ -429,14 +417,6 @@ high_sea_battle_fleet = {
 		modifier = {
 			factor = 1.05
 			total_amount_of_ships = 80
-		}
-		modifier = {
-			factor = 5
-			total_amount_of_ships = 100
-		}
-		modifier = {
-			factor = 10
-			total_amount_of_ships = 150
 		}
 		# Big country with more than 1/4 coastal provinces
 		modifier = {
@@ -721,10 +701,6 @@ steamers = {
 			factor = 20
 			year = 1851
 		}
-		modifier = {
-			factor = 1.5
-			colonial_nation = yes
-		}
 	}
 }
 iron_steamers = {
@@ -831,10 +807,6 @@ iron_steamers = {
 			factor = 6
 			year = 1870
 		}
-		modifier = {
-			factor = 1.5
-			colonial_nation = yes
-		}
 	}
 }
 steel_steamers = {
@@ -844,7 +816,7 @@ steel_steamers = {
 	unciv_military = yes
 	navy_base = { maximum_speed = 1 } 
 	ai_chance = {
-		factor = 5
+		factor = 2
 		# Land-locked countries don't research this
 		modifier = {
 			factor = 0
@@ -896,10 +868,6 @@ steel_steamers = {
 			factor = 1.05
 			total_amount_of_ships = 80
 		}
-		modifier = {
-			factor = 5
-			total_amount_of_ships = 150
-		}
 		# Big country with more than 1/4 coastal provinces
 		modifier = {
 			factor = 1.1
@@ -928,10 +896,6 @@ steel_steamers = {
 			factor = 3
 			any_owned_province = { is_overseas = yes }
 			#money = 20000
-		}
-		modifier = {
-			factor = 1.5
-			colonial_nation = yes
 		}
 	}
 }
@@ -1260,11 +1224,6 @@ fire_control_systems = {
 			factor = 1.1
 			total_amount_of_ships = 80
 		}
-		modifier = {
-			factor = 5
-			total_amount_of_ships = 150
-			raider_group_doctrine = 1
-		}
 		# Big country with more than 1/4 coastal provinces
 		modifier = {
 			factor = 1.05
@@ -1361,11 +1320,6 @@ weapon_platforms = {
 		modifier = {
 			factor = 1.1
 			total_amount_of_ships = 80
-		}
-		modifier = {
-			factor = 5
-			total_amount_of_ships = 150
-			raider_group_doctrine = 1
 		}
 		# Big country with more than 1/4 coastal provinces
 		modifier = {
@@ -1467,11 +1421,6 @@ main_armament = {
 		modifier = {
 			factor = 1.1
 			total_amount_of_ships = 80
-		}
-		modifier = {
-			factor = 5
-			total_amount_of_ships = 150
-			blue_and_brown_water_schools = 1
 		}
 		# Big country with more than 1/4 coastal provinces
 		modifier = {
@@ -1743,7 +1692,7 @@ naval_plans = {
 	supply_range = 0.5
 	
 	ai_chance = {
-		factor = 1
+		factor = 0.25
 		modifier = {
 			factor = 0
 			NOT = { total_num_of_ports = 1 }
@@ -1766,19 +1715,11 @@ naval_plans = {
 			total_amount_of_ships = 30
 		}
 		modifier = {
-			factor = 5
-			total_amount_of_ships = 150
-		}
-		modifier = {
-			factor = 10
-			total_amount_of_ships = 200
-		}
-		modifier = {
 			factor = 1.05
 			war = yes
 		}
 		modifier = {
-			factor = 5
+			factor = 1.02
 			OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
 		}
 		modifier = {
@@ -1793,10 +1734,6 @@ naval_plans = {
 			factor = 0.25
 			NOT = { literacy = 0.4 }
 		}
-		modifier = {
-			factor = 2.0
-			colonial_nation = yes
-		}
 	}
 }
 naval_statistics = {
@@ -1806,7 +1743,7 @@ naval_statistics = {
 	unciv_military = yes
 	supply_range = 0.5
 		ai_chance = {
-		factor = 1
+		factor = 0.25
 		modifier = {
 			factor = 0
 			NOT = { total_num_of_ports = 1 }
@@ -1829,13 +1766,8 @@ naval_statistics = {
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 1.02
 			OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
-		}
-		modifier = {
-			factor = 5
-			total_amount_of_ships = 150
-			raider_group_doctrine = 1
 		}
 		modifier = {
 			factor = 1.05
@@ -1844,14 +1776,6 @@ naval_statistics = {
 		modifier = {
 			factor = 1.02
 			total_amount_of_ships = 30
-		}
-		modifier = {
-			factor = 5
-			total_amount_of_ships = 150
-		}
-		modifier = {
-			factor = 10
-			total_amount_of_ships = 200
 		}
 		modifier = {
 			factor = 1.05
@@ -1869,10 +1793,6 @@ naval_statistics = {
 			factor = 0.25
 			NOT = { literacy = 0.4 }
 		}
-		modifier = {
-			factor = 2.0
-			colonial_nation = yes
-		}
 	}
 }
 naval_logistics = {
@@ -1882,7 +1802,7 @@ naval_logistics = {
 	unciv_military = yes
 	supply_range = 1.0
 		ai_chance = {
-		factor = 2
+		factor = 0.25
 		modifier = {
 			factor = 0
 			NOT = { total_num_of_ports = 1 }
@@ -1904,21 +1824,11 @@ naval_logistics = {
 			total_amount_of_ships = 30
 		}
 		modifier = {
-			factor = 15
-			total_amount_of_ships = 150
-			blue_and_brown_water_schools = 1
-		}
-		modifier = {
-			factor = 25
-			total_amount_of_ships = 180
-			blue_and_brown_water_schools = 1
-		}
-		modifier = {
 			factor = 1.05
 			war = yes
 		}
 		modifier = {
-			factor = 2.5
+			factor = 1.02
 			OR = { tech_school = naval_tech_school tech_school = japanese_tech_school }
 		}
 		modifier = {
@@ -1932,10 +1842,6 @@ naval_logistics = {
 		modifier = {
 			factor = 0.25
 			NOT = { literacy = 0.4 }
-		}
-		modifier = {
-			factor = 5.0
-			colonial_nation = yes
 		}
 	}
 }
@@ -2198,10 +2104,6 @@ naval_professionalism = {
 			factor = 1.1
 			total_amount_of_ships = 80
 		}
-		modifier = {
-			factor = 2.5
-			total_amount_of_ships = 150
-		}
 		# Big country with more than 1/4 coastal provinces
 		modifier = {
 			factor = 1.05
@@ -2229,10 +2131,6 @@ naval_professionalism = {
 		modifier = {
 			factor = 0.25
 			NOT = { literacy = 0.4 }
-		}
-		modifier = {
-			factor = 3.5
-			colonial_nation = yes
 		}
 	}
 }

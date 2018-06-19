@@ -56,7 +56,6 @@ post_napoleonic_thought = 1
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
 army_command_principle = 1
-military_staff_system = 1
 post_nelsonian_thought = 1
 the_command_principle = 1
 private_banks = 1
@@ -67,7 +66,6 @@ late_enlightenment_philosophy = 1
 enlightenment_thought = 1
 piston_steam_engine = 1
 mechanical_production = 1
-military_staff_system = 1
 
 # Inventions
 
