@@ -4,7 +4,9 @@
 
 https://trello.com/b/x8h35sww/hpm-multiplayer-update
 
-Add Civil War Truces
+Hungarian Civil War Truce
+
+Taiping Civil War Truce
 
 French Colony Events/Decisions
 
@@ -45,3 +47,6 @@ Square flags - DONE
 Map textures - DONE
 
 Dragoon Techs - DONE
+
+ACW Civil War Truce - DONE
+
