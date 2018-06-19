@@ -6,6 +6,8 @@ https://trello.com/b/x8h35sww/hpm-multiplayer-update
 
 Taiping Rebellion Truce
 
+Congo for secondary power
+
 Hungarian War Truce
 
 Great Wars 1890
