@@ -4,15 +4,27 @@
 
 https://trello.com/b/x8h35sww/hpm-multiplayer-update
 
-Add Civil War Truces
+Taiping Rebellion Truce
+
+Congo for secondary power
+
+Hungarian War Truce
+
+Great Wars 1890
 
 French Colony Events/Decisions
+
+Lower Cut Down Costs
+
+Scandanavia requirements, and form puppet version
+
+Greece requirments
+
+British Isolationism
 
 Spanish Empire Events/Decisions
 
 Buff Good Techs
-
-Dragoon Techs - DONE
 
 Italian Independence War
 
@@ -38,6 +50,12 @@ Balance Cotton, Wool, Dyes, Textile production chain
 
 South American War of the Triple Alliance
 
+-------
+
 Square flags - DONE
 
+ACW truce  - DONE
+
 Map textures - DONE
+
+Dragoon Techs - DONE
