@@ -10,17 +10,17 @@ political_decisions = {
 		allow = {
 			OR = {
 				government = hms_government
-				average_militancy = 4
+				average_militancy = 6.5
 				AND = {
 					upper_house = { ideology = liberal value = 0.2 }
-					OR = {
+					AND = {
 						average_consciousness = 3
 						has_recently_lost_war = yes
 					}
 				}
 				AND = {
 					ruling_party_ideology = liberal
-					OR = {
+					AND = {
 						average_consciousness = 3
 						has_recently_lost_war = yes
 					}
