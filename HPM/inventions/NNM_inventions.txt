@@ -1,3 +1,16 @@
+qing_grain = {
+	limit = { 
+		tag = QNG
+		civilized = no
+		ai = yes
+	 }
+	chance = {
+		base = 100
+	}
+	effect = {
+		rgo_goods_output = { grain = 0.25 }
+	}
+}
 declaration_of_the_rights_of_man = {
 	limit = { enlightenment_thought = 1 }
 	news = no
