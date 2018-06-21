@@ -12,15 +12,11 @@ French Colony Events/Decisions
 
 Spanish Empire Events/Decisions
 
-Lower Cut Down Cost
-
 Italian Independence War
 
 Pop Growth Bonuses
 
 Chemical Factories
-
-Remove Sphering Removal Infamy
 
 Flavor Events for certian nations that are in HFM:
 
@@ -38,6 +34,12 @@ South American War of the Triple Alliance
 
 --------
 
+Greece Megali Rework - DONE
+
+Scandanavia Rework - DONE
+
+Lower Cut Down Cost - DONE
+
 Square flags - DONE
 
 Map textures - DONE
@@ -51,3 +53,5 @@ Buff Good Techs - DONE
 Russian Serfdom - DONE
 
 Afro American as accepted civil war reconstruction - DONE
+
+Remove Sphering Removal Infamy - DONE

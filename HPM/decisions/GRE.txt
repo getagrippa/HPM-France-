@@ -58,7 +58,7 @@ political_decisions = {
 		
 		allow = {
 			NOT = { has_country_flag = population_exchange_with_turkey }
-			is_greater_power = yes
+			prestige = 50
 			invention = national_fraternity
 			owns = 832
 			owns = 805
