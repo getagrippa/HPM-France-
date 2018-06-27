@@ -296,7 +296,7 @@ gas_defense_capability = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 10
+			factor = 5
 			war = yes
 			war_countries = { invention = gas_attack_capability }
 		}
@@ -1082,7 +1082,7 @@ anti_aircraft_artillery = {
 	}
 	effect = {
 		artillery = {
-			#attack = 0.1
+			attack = 0.1
 			defence = 1
 			support = 0.1
 			supply_consumption = 0.25
@@ -1104,7 +1104,7 @@ improved_anti_aircraft_artillery = {
 	}
 	effect = {
 		artillery = {
-			#attack = 0.1
+			attack = 0.1
 			defence = 1
 			support = 0.1
 			supply_consumption = 0.25
