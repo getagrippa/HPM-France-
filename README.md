@@ -8,7 +8,7 @@ Hungarian Civil War Truce
 
 Taiping Civil War Truce
 
-Transfer CB
+Transfer CB - BETA TEST
 
 French Colony Events/Decisions
 
