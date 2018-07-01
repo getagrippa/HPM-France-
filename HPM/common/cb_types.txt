@@ -106,6 +106,7 @@ establish_protectorate_BC_casus_belli
 establish_protectorate_NI_casus_belli
 establish_protectorate_casus_belli
 status_quo
+transfer_state
 }
 
 # Great War CB's
@@ -6513,3 +6514,83 @@ war_reparations = {
 	}
 }
 
+transfer_state = {
+	sprite_index = 6
+	is_triggered_only = yes
+	months = 1
+	
+	construction_speed = 10
+
+	badboy_factor = 0
+	prestige_factor = 0
+	peace_cost_factor = 0
+	penalty_factor = 0
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 0
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+	can_use = {
+		human = yes
+		is_vassal = no
+		OR = {
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				num_of_ports = 1
+			}
+			neighbour = THIS
+			AND = { war_with = THIS ai = no }
+		}
+		NOT = { 
+			is_our_vassal = THIS
+			has_country_modifier = neutrality
+		}
+		any_state = {
+			is_colonial = no
+			NOT = { any_owned_province = { is_capital = yes } }
+		}
+		OR = {
+			THIS = { civilized = no }
+			civilized = yes
+		}
+		THIS = { NOT = { has_country_modifier = neutrality } }
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
+		OR = {
+			THIS = { government = fascist_dictatorship }
+			THIS = { government = proletarian_dictatorship }
+			THIS = { civilized = no }
+			war_with = THIS
+			NOT = { relation = { who = THIS value = 0 } }
+			THIS = { ai = no }
+		}
+		#AI anti-military will not use this
+		OR = {
+			THIS = { ai = no }
+			THIS = { NOT = { war_policy = anti_military } }
+		}
+		#AI will not use this CB when duking it out over hegemony
+		OR = {
+			THIS = { ai = no }
+			NOT = {
+				AND = {
+					culture_has_union_tag = yes
+					is_culture_group = THIS
+					cultural_union = { exists = no }
+					is_greater_power = yes
+					THIS = { is_greater_power = yes }
+				}
+			}
+		}
+	}
+	po_demand_state = yes
+	
+	war_name = WAR_TAKE_NAME
+}
