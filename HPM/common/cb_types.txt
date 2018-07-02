@@ -6558,6 +6558,7 @@ transfer_state = {
 			NOT = { any_owned_province = { is_capital = yes } }
 		}
 		OR = {
+			is_colonial = yes
 			THIS = { civilized = no }
 			civilized = yes
 		}
