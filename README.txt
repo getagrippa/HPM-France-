@@ -8,8 +8,6 @@ Hungarian Civil War Truce
 
 Taiping Civil War Truce
 
-Transfer CB
-
 French Colony Events/Decisions
 
 Spanish Empire Events/Decisions
@@ -18,7 +16,7 @@ Italian Independence War
 
 Pop Growth Bonuses
 
-Chemical Factories
+Chemical Factories - DONE
 
 Flavor Events for certian nations that are in HFM:
 
@@ -35,6 +33,12 @@ Balance Cotton, Wool, Dyes, Textile production chain
 South American War of the Triple Alliance
 
 --------
+
+Industry Techs and Inventions - DONE
+
+Brtish Isolationism - DONE
+
+Transfer CB - DONE
 
 Greece Megali Rework - DONE
 
