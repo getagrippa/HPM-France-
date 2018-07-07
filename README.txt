@@ -2,8 +2,6 @@
 
 #To-Do
 
-https://trello.com/b/x8h35sww/hpm-multiplayer-update
-
 Hungarian Civil War Truce
 
 Taiping Civil War Truce
@@ -16,8 +14,6 @@ Italian Independence War
 
 Pop Growth Bonuses
 
-Chemical Factories - DONE
-
 Flavor Events for certian nations that are in HFM:
 
 Japan Balancing
@@ -26,13 +22,13 @@ Wallachia, Moldavia, Romania Unification Chain
 
 USA Balancing & Flavour
 
-Add EIC as nation
-
 Balance Cotton, Wool, Dyes, Textile production chain
 
 South American War of the Triple Alliance
 
 --------
+
+Chemical Factories - DONE
 
 Industry Techs and Inventions - DONE
 
