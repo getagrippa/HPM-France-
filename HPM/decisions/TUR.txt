@@ -534,7 +534,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = wallachia_annexed
-			badboy = 10
+			badboy = 5
 			relation = {
 				who = RUS
 				value = -200
@@ -590,7 +590,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = moldavia_annexed
-			badboy = 10
+			badboy = 5
 			relation = {
 				who = RUS
 				value = -200
