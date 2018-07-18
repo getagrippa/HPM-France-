@@ -4,6 +4,7 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
+			year = 1936
 			NOT = { has_global_flag = looking_through_options }
 			NOT = { year = 1837 }
 		}
@@ -21,6 +22,7 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
+			year = 1936
 			has_country_flag = country_looking_through_options
 			NOT = { year = 1837 }
 		}

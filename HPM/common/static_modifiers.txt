@@ -201,7 +201,7 @@ bad_debter = {
 great_power = {
 	prestige = 0.05
 	research_points = 1.5
-	diplomatic_points_modifier = 1.0
+	diplomatic_points_modifier = 2.0
 	leadership = 2.0
 	global_immigrant_attract = 0.20
 }
@@ -209,7 +209,7 @@ great_power = {
 second_power = {
 	prestige = 0.025
 	research_points = 1.25
-	diplomatic_points_modifier = 0.25
+	diplomatic_points_modifier = 1.0
 	leadership = 1.0
 	global_immigrant_attract = 0.05
 }
@@ -217,12 +217,13 @@ second_power = {
 civ_nation = {
 	prestige = 0.01
 	research_points = 1
+	diplomatic_points_modifier = 1.0
 	leadership = 0.5
 }
 
 unciv_nation = {
 	mobilisation_size = -0.2
-	diplomatic_points_modifier = -0.25
+	diplomatic_points_modifier = 0.25
 	cb_generation_speed_modifier = 0.8
 }
 
