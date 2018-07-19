@@ -486,7 +486,7 @@ political_reforms = {
 			suppression_points_modifier = 0.1
 			poor_everyday_needs = 0.1
 			poor_savings_modifier = -0.25
-			allow = { OR = { NOT = { has_country_flag = serfdom_not_abolished } year = 1870 } }
+			allow = { OR = { has_country_flag = serfdom_not_abolished year = 1870 } }
 		}
 		
 		debtors_prisons = {
