@@ -259,14 +259,14 @@ machine_parts_factory = {
 		coal = 5		#11.5  total input+maint = 66
 	}
 	output_goods = machine_parts 
-	value = 2			#73
+	value = 2.5			#73
 	bonus = {
 		trigger = { has_building = steel_factory }
-		value = 0.125
+		value = 0.15
 	}
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
-		value = 0.125
+		value = 0.15
 	}
 }
 
@@ -286,14 +286,14 @@ synthetic_oil_factory = {
 synthetic_sulphur_factory = {       
 	template = factory_template
 	input_goods = { 
-		fuel = 1.5		#25.3	
-		iron = 0.25		#3.5 	total input+maint = 40.2
+		coal = 11		#25.3	
+		iron = 1		#3.5 	total input+maint = 40.2
 	}
-	output_goods = fertilizer
-	value = 10			#15
+	output_goods = sulphur
+	value = 2.5			#15
 	bonus = {
-		trigger = { has_building = fuel_refinery }
-		value = 0.15
+		trigger = { trade_goods_in_state = coal }
+		value = 0.20
 	}
 	bonus = {
 		trigger = { trade_goods_in_state = iron }
@@ -326,7 +326,7 @@ steamer_shipyard = {
 	input_goods = {
 		lumber = 10
 		steel = 22		#94
-		coal = 30		#69
+		coal = 25		#69
 		machine_parts = 0.25 #9.125 total input+maint = 191.125
 	}
 	output_goods = steamer_convoy 
@@ -389,7 +389,7 @@ luxury_furniture_factory = {
 steel_factory = {       
 	template = factory_template
 	input_goods = { 
-		iron = 20		#70
+		iron = 18		#70
 		coal = 5		#11.5	total input+maint = 81.5
 	}
 
@@ -397,7 +397,7 @@ steel_factory = {
 	value = 19		#89.3, was 20 - 94
 	bonus = {
 		trigger = { trade_goods_in_state = iron }
-		value = 0.125
+		value = 0.2
 	}
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
@@ -412,7 +412,7 @@ artillery_factory = {
 		steel = 8		#37.6   total input+maint = 67.6
 	}
 	output_goods = artillery 
-	value = 1.3			#78
+	value = 1.5			#78
 	bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.15
@@ -497,7 +497,7 @@ paper_mill = {
 regular_clothes_factory = {       
 	template = factory_template
 	input_goods = {  
-		fabric = 40		#72	total input+maint = 82
+		fabric = 35		#72	total input+maint = 82
 	}
 	output_goods = regular_clothes 
 	value = 15			#87
@@ -798,7 +798,7 @@ coffee_plantation = {
 cotton_plantation = {
 	template = RGO_template_farmers
 	output_goods = cotton 
-	value = 1.8 #3
+	value = 2.0 #3
 	farm = yes
 }
 
@@ -826,7 +826,7 @@ grain_farm = {
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron
-	value = 1.8
+	value = 3.0
 	mine = yes
 }
 
