@@ -29,8 +29,8 @@ country = {
 	COLONIAL_LIFERATING = 35,
 	BASE_GREATPOWER_DAILY_INFLUENCE = 0.25, -- Influence value which is distributed each day
 	AI_SUPPORT_REFORM = 0.025, -- At least this many % needs to support a reform for the AI to take it
-	BASE_MONTHLY_DIPLOPOINTS = 0.3, -- Base value gain for diplomatic actions each month
-	DIPLOMAT_TRAVEL_TIME = 14,
+	BASE_MONTHLY_DIPLOPOINTS = 1, -- Base value gain for diplomatic actions each month
+	DIPLOMAT_TRAVEL_TIME = 7,
 	PROVINCE_OVERSEAS_PENALTY = 0.015, -- Each province req. this many goods flagged as overseas penalty 
 	NONCORE_TAX_PENALTY = -0.05, -- -5% for each non-core in state
 	BASE_TARIFF_EFFICIENCY = 0.1, -- baseline tariff efficiency
@@ -389,7 +389,7 @@ diplomacy = {
 	WAR_PRESTIGE_COST_UNCIVILIZED = -50,
 	WAR_PRESTIGE_COST_CORE = -50,	
 	
-	WAR_FAILED_GOAL_MILITANCY = 2,
+	WAR_FAILED_GOAL_MILITANCY = 0,
 	WAR_FAILED_GOAL_PRESTIGE_BASE = -10,
 	WAR_FAILED_GOAL_PRESTIGE = -0.1,
 	
@@ -463,7 +463,7 @@ diplomacy = {
 	REMOVEFROMSPHERE_RELATION_ON_ACCEPT = -10,
 	REMOVEFROMSPHERE_INFLUENCE_COST = 100,
 	REMOVEFROMSPHERE_PRESTIGE_COST = 10, -- only applied if removing country is sphere leader
-	REMOVEFROMSPHERE_INFAMY_COST = 1, -- only applied if removing country is sphere leader
+	REMOVEFROMSPHERE_INFAMY_COST = 0, -- only applied if removing country is sphere leader
 
 	INCREASEOPINION_RELATION_ON_ACCEPT = 20,
 	INCREASEOPINION_INFLUENCE_COST = 50,
@@ -509,7 +509,7 @@ diplomacy = {
 	
 	GUNBOAT_DIPLOMATIC_COST = 1,
 	GUNBOAT_RELATION_ON_ACCEPT = 1,
-	WARGOAL_JINGOISM_REQUIREMENT = 0.055,
+	WARGOAL_JINGOISM_REQUIREMENT = 0.0,
 
 	LIBERATE_STATE_RELATION_INCREASE = 50,
 	DISHONORED_CALLALLY_PRESTIGE_PENALTY = -3,
@@ -523,7 +523,7 @@ diplomacy = {
 	
 	-- effects of manually releasing a nation
 	RELEASE_NATION_PRESTIGE = 0,
-	RELEASE_NATION_INFAMY = -2,
+	RELEASE_NATION_INFAMY = 0,
 	
 	INFAMY_CLEAR_UNION_SPHERE = 0, -- Infamy for asserting hegemony
 	

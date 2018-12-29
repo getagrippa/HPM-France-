@@ -3,6 +3,17 @@
 #
 # Effects are fully scriptable here.
 
+corn_republic_buff = {
+    trigger ={
+        exists = yes
+        government = democracy
+        }
+    education_efficiency_modifier = 0.03
+    global_immigrant_attract = 0.10
+    mobilisation_size = 0.02
+    icon = 11
+}
+
 trinket_health_care_fully_funded = {
 	trigger = {
 		exists = yes

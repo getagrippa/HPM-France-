@@ -45,6 +45,7 @@ absolute_monarchy = {
 	liberal = yes
 	conservative = yes
 	reactionary = yes
+	fascist = yes
 	
 	
 	election = no
@@ -57,6 +58,7 @@ prussian_constitutionalism = {
 	socialist = yes
 	conservative = yes
 	reactionary = yes
+	fascist = yes
 	
 	
 	election = yes

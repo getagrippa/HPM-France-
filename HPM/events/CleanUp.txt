@@ -335,6 +335,7 @@ country_event = {
 		government = democracy
 		election = yes
 		random_owned = { limit = { owner = { border_policy = closed_borders } } owner = { political_reform = open_borders } }
+		random_owned = { limit = { owner = { centralization = totalitarianism } } owner = { political_reform = unitary } }
 	}
 }
 
@@ -667,10 +668,13 @@ country_event = {
 			NOT = { tag = BAN }
 			sphere_owner = { neighbour = THIS }
 		}
-		OR = {
-			NOT = { tag = NEN }
-			has_country_flag = usstatehood_we_have_applied
-			USA = { ai = yes }
+		AND = {
+			OR = {
+				NOT = { tag = NEN }
+				has_country_flag = usstatehood_we_have_applied
+				USA = { ai = yes }
+			}
+			139 = { owned_by = USA }
 		}
 		NOT = {
 			tag = KUK
@@ -684,11 +688,28 @@ country_event = {
 			tag = UBD
 			tag = INO
 			tag = IRE
+			tag = BRT
+			tag = LIE
+			tag = VLG
+			tag = SIE
+			tag = BAN
+			tag = SMR
+			tag = LEG
+			AND = {
+				tag = RHI
+				is_culture_group = french
+			}
+			capital_scope = { continent = africa }
+			capital_scope = { continent = west_africa }
+			capital_scope = { continent = east_africa }
+			capital_scope = { continent = central_africa }
+			capital_scope = { continent = south_west_africa }
+			capital_scope = { continent = asia }
 		}
 		NOT = { has_country_flag = post_colonial_country }
 	}
 	
-	mean_time_to_happen = { months = 12 }
+	mean_time_to_happen = { months = 1 }
 	
 	option = {
 		name = "EVTOPTA60120"
@@ -940,7 +961,14 @@ country_event = {
 	
 	option = {
 		name = "EVT6016807PTA"
-		annex_to = FRA
+		random_owned = {
+			limit = { exists = FRA }
+			owner = { annex_to = FRA }
+		}	
+		random_owned = {
+			limit = { exists = BOR }
+			owner = { annex_to = BOR }
+		}	
 	}
 	
 }
@@ -971,6 +999,7 @@ country_event = {
 			remove_country_modifier = political_education
 			remove_country_modifier = cult_of_personality
 			remove_country_modifier = the_terror
+			political_reform = unitary
 	}
 }
 
@@ -1016,7 +1045,8 @@ country_event = {
 	option = {
 		name = "EVT6016812OPTA"
 		random_owned = { limit = { has_building = naval_base is_core = THIS } sub_unit = { type = ironclad value = current } }
-		add_country_modifier = { name = warship_commissioned duration = 365 }
+		random_owned = { limit = { owner = { civilized = no } } owner = { military_reform = yes_foreign_navies } }
+		add_country_modifier = { name = warship_commissioned duration = 120 }
 		change_variable = { which = ironclad_commision value = 1 }
 		any_country = { limit = { exists = no has_country_flag = warship_commissioned } clr_country_flag = warship_commissioned }
 		clr_global_flag = warship_commission_being_fulfilled
@@ -1043,6 +1073,7 @@ country_event = {
 		NOT = { tag = TOU }
 		NOT = { tag = SUD }
 		NOT = { tag = TPG }
+		NOT = { tag = MGL }
 	}
 
 	mean_time_to_happen = { months = 1 }
@@ -2703,3 +2734,30 @@ country_event = {
 	}
 }
 
+#Enable/Disable Splendid Isolation
+country_event = {
+	id = 6016815
+	title = "EVTNAME6016815"
+	desc = "EVTDESC6016815"
+	picture = "abraham_speech"
+	major = yes
+		
+	trigger = {
+		ai = no
+		NOT = { has_global_flag = isolation_setup }
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "EVT6016814OPTA"
+		set_global_flag = yes_isolation
+		set_global_flag = isolation_setup
+	}
+	
+	option = {
+		name = "EVT6016815OPTB"
+		set_global_flag = isolation_setup
+	}
+}

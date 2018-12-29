@@ -189,7 +189,13 @@ From;To;Type;Through;Data;Comment
 2568;722;impassable;0;0;Lugano-Novara
 609;722;impassable;0;0;Sitten-Novara
 606;722;impassable;0;0;Lucerne-Novara
+465;721;impassable;0;0;Annecy-Aosta
+466;720;impassable;0;0;Chambery-Turin
 
+#Pyrenees
+457;496;impassable;0;0;Foix-Huesca
+457;500;impassable;0;0;Foix-Lerida
+460;496;impassable;0;0;Foix-Lerida
 #Alaskan Panhandle
 
 2;6;impassable;0;0;

@@ -1,3 +1,45 @@
+# The Slavery Debate
+country_event = {
+	id = 1600111
+	title = "EVTNAME1600111_NEWS_TITLE"
+	desc = "EVTDESC1600111_NEWS_LONG"
+	news = yes
+	news_title = "EVTNAME1600111_NEWS_TITLE"
+	news_desc_long = "EVTDESC1600111_NEWS_LONG"
+	fire_only_once = yes
+	picture = "Slaves"
+	
+	trigger = {
+		tag = BRZ
+		OR = {
+			slavery = yes_slavery
+			slavery = freedom_of_womb
+		}
+		NOT = { has_global_flag = golden_law_passed }
+	}
+	
+	immediate = {
+		set_country_flag = the_slavery_debate
+	}
+	option = {
+		name = "EVTOPTA16001"
+		any_owned = {
+			limit = { has_pop_type = slaves trade_goods = cotton }
+			random_list = {
+				20 = { slaves = { reduce_pop = 1.25 } }
+				20 = { slaves = { reduce_pop = 1.2 } }
+				20 = { slaves = { reduce_pop = 1.175 } }
+				20 = { slaves = { reduce_pop = 1.15 } }
+				20 = { slaves = { reduce_pop = 1.125 } }
+			}
+		}
+		add_country_modifier = {
+			name = the_slavery_debate
+			duration = 10950
+		}
+	}
+}
+
 country_event = {
 
 	id = 46300

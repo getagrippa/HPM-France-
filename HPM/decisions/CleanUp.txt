@@ -423,6 +423,7 @@ political_decisions = {
 	enabling_crisis = {
 		potential = {
 			ai = yes
+			year = 1936
 			exists = yes
 			NOT = { has_global_flag = revolution_n_counter_researched }
 			OR = {
