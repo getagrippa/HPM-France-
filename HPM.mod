@@ -1,3 +1,3 @@
-name = "Historical Project PDXMP Mod"
-path = "mod/HPM"
-user_dir = "HPM"
+name = "HPM France+ Sub-Mod"
+path = "mod/HPM France+"
+user_dir = "HPM France+"
