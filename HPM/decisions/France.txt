@@ -804,6 +804,69 @@ political_decisions = {
 		
 		ai_will_do = { factor = 1 }
 	}
+
+accept_wallonian = {
+		picture = channel_islands
+		potential = {
+			tag = FRA
+			FRA = {
+				owns = 395
+				}
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			is_greater_power = yes 
+		}
+		
+		effect = {
+			random_owned = {
+				limit = { owner = { tag = FRA } }
+				WLL = { all_core = { add_core = FRA } }
+				WLL = { all_core = { remove_core = WLL } }
+				}
+			FRA = { add_accepted_culture = wallonian }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.8 }
+		}
+	}
+
+departmentalize_west_bank = {
+		picture = channel_islands
+		potential = {
+			year = 1880
+			tag = FRA
+			FRA = (
+				owns = 573
+				owns = 575
+				}
+		}
+		
+		allow = {
+			war = no
+			is_greater_power = yes 
+			}
+		
+		effect = {
+			badboy = 5
+			random_owned = {
+				limit = { owner = { tag = FRA } }
+				GER = { all_core = { remove_core = GER } }
+				NGF = { all_core = { remove_core = NGF } }
+				PRU = { all_core = { remove_core = PRU } }
+				}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.8 }
+		}
+	}
+
 	
 #The Devil's Island
 devil_island = {
